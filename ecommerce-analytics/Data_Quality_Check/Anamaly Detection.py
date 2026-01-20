@@ -14,7 +14,8 @@ def detect_anomalies(order_amounts):
     ]
 
     if anomalies:
-        print(f"⚠️ Anomalies detected: {anomalies}")
+        print(f"Anomalies detected: {anomalies}")
         print("Suggestion: Verify against average product price or flag for manual review.")
+
 
 
