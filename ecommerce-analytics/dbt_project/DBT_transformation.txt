@@ -1,9 +1,0 @@
-DBT Transformation Layer
-
-dbt_project/
- └── models/
-     └── staging/
-         ├── customers.sql
-         ├── products.sql
-         └── orders.sql
-
