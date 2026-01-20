@@ -1,4 +1,6 @@
 -- Referential Integrity Check (SQL Logic)
+-- Ensures all customer_id and product_id in Fact_Orders exist in the corresponding dimension tables.
+-- Missing references are routed to a quarantine table for manual review:
 
 SELECT f.order_id
 FROM fact_orders f
