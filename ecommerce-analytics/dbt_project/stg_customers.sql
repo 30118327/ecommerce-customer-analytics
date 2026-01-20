@@ -5,6 +5,7 @@ SELECT
     country,
     signup_date
 FROM {{ source('raw','customers') }}
+WHERE customer_id IS NOT NULL
 
 
 
