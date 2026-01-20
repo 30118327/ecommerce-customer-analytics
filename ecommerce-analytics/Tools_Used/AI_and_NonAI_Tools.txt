@@ -1,0 +1,13 @@
+AI Tools Used
+
+(i.) ChatGPT and GeminiAI(schema design, dbt, Airflow DAG, Anamaly Detection)
+
+(ii.) Personal judgment (DQ logic & ingestion strategy)
+
+Non AI Tools Used:-
+
+(i.) Snowflake Docs (data types & constraints)-> https://docs.snowflake.com/en/user-guide-getting-started
+
+(ii.) Airflow Docs -> https://airflow.apache.org/docs/
+
+(iii.) DBT Docs -> https://docs.getdbt.com/docs/introduction
