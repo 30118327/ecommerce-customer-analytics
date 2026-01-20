@@ -2,6 +2,10 @@ name: customer_analytics
 version: '1.0'
 profile: snowflake_profile
 
+source-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_modules"]
+
 models:
   customer_analytics:
     staging:
