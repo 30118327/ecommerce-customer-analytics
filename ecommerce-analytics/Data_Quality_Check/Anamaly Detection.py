@@ -18,4 +18,8 @@ def detect_anomalies(order_amounts):
         print("Suggestion: Verify against average product price or flag for manual review.")
 
 
+### Anomaly Detection (Z-Score)
+# Calculates the mean and standard deviation of order amounts.
+# Flags orders where the amount deviates more than 3 standard deviations from the mean.
+# Prevents outliers due to data entry errors or duplicate records.
 
